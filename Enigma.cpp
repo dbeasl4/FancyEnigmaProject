@@ -58,6 +58,7 @@ private:
 public:
 
     Enigma() : g(rd()){
+        setUpCharMapping();
         std::uniform_int_distribution<int> notchDist(0, keyTotal-1);
         //Building rotors
         setUpRotors();
