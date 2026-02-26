@@ -1,0 +1,13 @@
+# IDE
+.idea/
+.vscode/
+
+# Build files
+/build/
+*.exe
+*.o
+*.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
